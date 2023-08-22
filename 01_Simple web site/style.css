@@ -1,0 +1,100 @@
+/** @format */
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.container-1400 {
+  width: 1400px;
+  margin: auto;
+  border: 1px solid red;
+}
+.util-line {
+  background-color: #1450a3;
+}
+.util.container-1400 {
+  display: flex;
+  justify-content: space-between;
+}
+.util > * {
+  color: #fff;
+  font-size: 0.8em;
+  line-height: 2;
+}
+
+.gnb-line {
+  margin-top: 1em;
+}
+.gnb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gnb > * {
+  display: inline;
+}
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+nav span {
+  margin-left: 2em;
+}
+.hero {
+  background-image: url();
+  display: flex;
+  justify-content: center;
+}
+.card {
+  padding: 1em 2em;
+  margin: 1em;
+  border-radius: 8px;
+  background-color: #eee;
+}
+.hero .card {
+  padding: 3em 5em;
+  margin: 10em;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.09);
+}
+.card h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+.card .sub-title {
+  margin-top: 1em;
+  font-size: 1.2em;
+  color: #6f6f6f;
+}
+.cta button {
+  margin-top: 2em;
+  background-color: #1450a3;
+  padding: 0.3em 3em;
+  color: #fff;
+  border-radius: 4px;
+  /* font-size: 0.9em; */
+}
+.service-line {
+  background-color: #ffc436;
+  padding: 2em;
+}
+.services {
+  border: 1px solid red;
+}
+.services h1 {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.services .card {
+  width: 30%;
+}
+.services .card p {
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10em;
+}

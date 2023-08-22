@@ -1,0 +1,11 @@
+/** @format */
+
+@charset "utf-8";
+@import 'nomalize.css'; /* 문자 형식 */
+/* @import url("header.css");  url 형식 */
+
+/* delete when confirmed */
+.dummy {
+  font-size: 30px;
+  font-weight: bold;
+}
