@@ -1,6 +1,6 @@
 <!-- @format -->
 
-### 필수단축키
+### 이거는 외우고 가자
 
 [] 전체 디렉토리에서 '파일명' 검색 : Ctrl + P
 [] Command Palette를 오픈 : Ctrl + Shift + P
